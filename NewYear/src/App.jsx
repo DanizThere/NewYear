@@ -1,5 +1,6 @@
 import './App.css'
 import logo from './assets/cropped-logo.png'
+import Congratulations from './Congratulations'
 
 export default function App() {
     return(
@@ -24,7 +25,7 @@ export default function App() {
                         <h1>Боботы</h1>
                     </div>
                     <div className='gifBobots'>
-
+                        <Congratulations/>
                     </div>
                 </div>
             </main>
@@ -35,9 +36,6 @@ export default function App() {
             </section>
             <section className='third' id='third'>
                 <div className='container'>
-                    <select>
-                        <option></option>
-                    </select>
                 </div>
             </section>
         </>
