@@ -71,9 +71,24 @@ header li{
     overflow: hidden;
     border-right: .15em solid green;
     font-size:20px;
-    width: 0;
-    max-width: 400px;
-    animation: typing 10s forwards;
+}
+
+.inlineDiv{
+    display: inline-block;
+}
+
+.info{
+    z-index: 1;
+    position: relative;
+}
+
+.gif{
+    height: 600px;
+    position: absolute;
+    z-index: 0;
+    filter: blur(3px);
+    opacity: .6;
+    width: 1600px;
 }
 
 header li:hover{
@@ -84,9 +99,4 @@ header li:hover{
 
 ul a:hover{
     color: rgba(255, 255, 255, .7);
-}
-
-@keyframes typing{
-    from {width: 0;}
-    to {width: 100%;}
 }

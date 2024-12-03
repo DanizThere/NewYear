@@ -24,9 +24,7 @@ export default function App() {
                     <div className='mainText'>
                         <h1>Боботы</h1>
                     </div>
-                    <div className='gifBobots'>
-                        <Congratulations/>
-                    </div>
+                    <Congratulations/>
                 </div>
             </main>
             <section className='second' id='second'>
