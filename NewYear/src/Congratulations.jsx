@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import sound from './assets/typing.mp3'
+import sound from './assets/laugh.mp3'
 
 export default function Congratulations(){
     const congrats = ['11010000 10100001 00100000 11010000 10011101 11010000 10111110 11010000 10110010 11010001 10001011 11010000 10111100 00100000 11010000 10010011 11010000 10111110 11010000 10110100 11010000 10111110 11010000 10111100',
@@ -14,6 +14,7 @@ export default function Congratulations(){
     return(
         <>
             <button onClick={PlayTyping}>Что же скажут роботы?</button>
+            <div className="typed_out">Абоба</div>
         </>
     )
 }

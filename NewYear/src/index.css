@@ -67,6 +67,15 @@ header li{
     height: 600px;
 }
 
+.typed_out{
+    overflow: hidden;
+    border-right: .15em solid green;
+    font-size:20px;
+    width: 0;
+    max-width: 400px;
+    animation: typing 10s forwards;
+}
+
 header li:hover{
     color: #fff;
     transition: 0.2s;
@@ -75,4 +84,9 @@ header li:hover{
 
 ul a:hover{
     color: rgba(255, 255, 255, .7);
+}
+
+@keyframes typing{
+    from {width: 0;}
+    to {width: 100%;}
 }
