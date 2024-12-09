@@ -52,7 +52,8 @@ img{
 .typed_out{
     overflow: hidden;
     border-right: .15em solid green;
-    font-size:10px;
+    font-family: "VCR Mono", "Courier New";
+    font-size:20px;
 }
 
 .inlineDiv{
@@ -107,4 +108,11 @@ img{
     width: 1200px;
     display: center;
     box-sizing: content-box;
+}
+
+@font-face {
+    font-family: "VCR Mono";
+    src: url("./fonts/vcrosdmonorusbydaymarius.ttf");
+    font-weight: normal;
+    font-size: normal;
 }
