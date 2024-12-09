@@ -10,14 +10,13 @@ export default function Congratulations(){
         '11010000 10010110 11010000 10110101 11010000 10111011 11010000 10110000 11010000 10110101 11010000 10111100 00100000 11010001 10000001 11010001 10000111 11010000 10110000 11010001 10000001 11010001 10000010 11010001 10001100 11010001 10001111',]
     const audio = new Audio(sound);
 
-    function Typing(){
-        const num = Math.floor(Math.random() * congrats.length);
-        PlayTyping();
-        setText(congrats[num]);
-    }
+    let n = 1;
 
-    function PlayTyping(){
-        audio.play();
+    function Typing(){
+        if(n >= congrats.length) n = 0;
+        n++;
+        setText(congrats[n]);       
+        audio.play();   
     }
 
     return(

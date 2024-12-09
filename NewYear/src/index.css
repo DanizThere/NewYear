@@ -45,7 +45,7 @@ header li{
 }
 
 .container{
-    width: 1500px;
+    width: 1200px;
     margin: 0 auto;
     padding: 50px;
 }
@@ -70,6 +70,7 @@ header li{
 .typed_out{
     overflow: hidden;
     border-right: .15em solid green;
+    font-family: "VCR Mono", "Courier New";
     font-size:20px;
 }
 
@@ -88,7 +89,7 @@ header li{
     z-index: 0;
     filter: blur(3px);
     opacity: .6;
-    width: 1600px;
+    width: 1200px;
 }
 
 header li:hover{
@@ -99,4 +100,11 @@ header li:hover{
 
 ul a:hover{
     color: rgba(255, 255, 255, .7);
+}
+
+@font-face {
+    font-family: "VCR Mono";
+    src: url("./fonts/vcrosdmonorusbydaymarius.ttf");
+    font-weight: normal;
+    font-size: normal;
 }

@@ -27,15 +27,6 @@ export default function App() {
                     <Congratulations/>
                 </div>
             </main>
-            <section className='second' id='second'>
-                <div className='container'>
-
-                </div>
-            </section>
-            <section className='third' id='third'>
-                <div className='container'>
-                </div>
-            </section>
         </>
     )
 }
