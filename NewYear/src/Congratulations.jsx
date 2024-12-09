@@ -26,9 +26,12 @@ export default function Congratulations(){
             </div>
             
             <div className="info">
+                <div><h1>Боботы</h1>
+                <secretmessage_happynewyear></secretmessage_happynewyear>
                 <button onClick={Typing} className="btn">Что же скажут роботы?</button>
+                </div>
                 <div className="inlineDiv">
-                    <div className="typed_out"><h1>{text}</h1></div>
+                    <div className="typed_out">{text}</div>
                 </div>
             </div>
   
