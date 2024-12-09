@@ -5,22 +5,18 @@
 
 html, body{
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    font-family: 'Courier New', Courier;  
 }
 
-ul{
+.congra{
     display: flex;
     justify-content: center;
     list-style-type: none;
     font-size: 24px;
     font-weight: 180;
     gap: 75px;
-}
-
-ul a{
     text-decoration: none;
-}
-
-ul a{
     color: #fff;
 }
 
@@ -37,40 +33,26 @@ header .container{
 img{
     height: 49px;
     width: 309px;
-    margin: 10px 10px;
-}
-
-header li{
-    color: rgba(255, 255, 255, .7)
+    margin: auto;
 }
 
 .container{
-    width: 1500px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px;
 }
 
 .first{
     height: 1000px;
     background-color: rgb(222, 239, 250);
-    margin-bottom: 150px;
-}
-
-.second{
-    background-color: rgb(158, 208, 241);
-    margin-bottom: 150px;
-    height: 600px;
-}
-
-.third{
-    background-color: rgb(222, 239, 250);
-    height: 600px;
+    justify-content: center;
+    justify-items: center;
 }
 
 .typed_out{
     overflow: hidden;
     border-right: .15em solid green;
-    font-size:20px;
+    font-size:10px;
 }
 
 .inlineDiv{
@@ -81,22 +63,48 @@ header li{
     z-index: 1;
     position: relative;
 }
+.btn{
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
 
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: #808080;
+}
 .gif{
     height: 600px;
     position: absolute;
     z-index: 0;
     filter: blur(3px);
     opacity: .6;
-    width: 1600px;
-}
-
-header li:hover{
-    color: #fff;
-    transition: 0.2s;
-}
-
-
-ul a:hover{
-    color: rgba(255, 255, 255, .7);
+    width: 1200px;
+    display: center;
+    box-sizing: content-box;
 }

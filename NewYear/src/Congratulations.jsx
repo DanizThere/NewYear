@@ -27,9 +27,9 @@ export default function Congratulations(){
             </div>
             
             <div className="info">
-                <button onClick={Typing}>Что же скажут роботы?</button>
+                <button onClick={Typing} className="btn">Что же скажут роботы?</button>
                 <div className="inlineDiv">
-                    <div className="typed_out">{text}</div>
+                    <div className="typed_out"><h1>{text}</h1></div>
                 </div>
             </div>
   

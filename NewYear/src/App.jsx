@@ -10,13 +10,7 @@ export default function App() {
                     <div className='img'>
                     <a href='https://ist.uisi.ru/' title='На кафедру ИСТ'><img src={logo}></img></a>
                     </div>
-                    <nav>
-                        <ul>
-                            <li><a href='#first'>Начало</a></li>
-                            <li><a href='#second'>Описание</a></li>
-                            <li><a href='#third'>Фотография</a></li>
-                        </ul>
-                    </nav>
+                    <div className='congra'>Поздравляем, прогеры и связисты!</div>
                 </div>
             </header>
             <main className='first' id='first'>
@@ -27,15 +21,6 @@ export default function App() {
                     <Congratulations/>
                 </div>
             </main>
-            <section className='second' id='second'>
-                <div className='container'>
-
-                </div>
-            </section>
-            <section className='third' id='third'>
-                <div className='container'>
-                </div>
-            </section>
         </>
     )
 }
