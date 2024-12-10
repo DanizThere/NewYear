@@ -2,7 +2,7 @@ import './App.css'
 import logo from './assets/cropped-logo.png'
 import Congratulations from './Congratulations'
 import cabels from './assets/cabels.png'
-import Photos from './Photos.jsx'
+
 export default function App() {
     return(
         <>
@@ -16,6 +16,7 @@ export default function App() {
             </header>
             <img src={cabels} className="girlanda"></img>
             <main className='first' id='first'>
+                <div className='backg'></div>
                 <div className='container'>
                     <div className='mainText'>
                         <h1>Мы спросили у настоящих машин как они празднуют новый год. И вот результат! Очень похоже на нас, не так ли?</h1>
@@ -23,10 +24,7 @@ export default function App() {
                     <Congratulations/>
                 </div>
             </main>
-            <img src={cabels} className="girlanda" style={{marginTop: -35}}></img>
-            <footer>
-                <Photos/>
-            </footer>
+            <img src={cabels} className="girlanda" style={{marginTop: -65}}></img>
         </>
     )
 }
